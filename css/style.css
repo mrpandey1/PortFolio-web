@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:300,400,500,700,900&amp;display=swap");
-.header::before,
-.header::after {
+header::before,
+header::after {
  content: '';
  display: block;
  height: 16px;
  position: sticky;
 }
  
-.header::before {
+header::before {
  top: 48px; /* 64 - 16 */
  box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
 }
  
-.header::after {
+header::after {
  background: linear-gradient(white, rgba(255,255,255,0.3));
  top: 0;
  z-index: 2;
