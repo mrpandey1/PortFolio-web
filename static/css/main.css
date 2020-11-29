@@ -1389,6 +1389,12 @@
       color: var(--foreground);
       line-height: 32px;
     }
+    .thankyou p {
+      font-size: 1.3rem;
+      letter-spacing: 0.08rem;
+      color: var(--foreground);
+      line-height: 32px;
+    }
   
     main #hero .email {
       z-index: 0;

@@ -56,12 +56,12 @@ const enableLightMode = () => {
   themeColorMeta.setAttribute("content", themeColor)
   // console.log("enableLightMode", themeColorMeta)
 
-  logo.src = 'images/icons/img1-24.png';
-  toggleBtnImg.src = './images/icons/img2-09.png';
-  linkedinIcon.src = './images/icons/img1-11.png';
-  githubIcon.src = './images/icons/img2-02.png';
+  logo.src = '../static/images/icons/img1-24.png';
+  toggleBtnImg.src = '../static/images/icons/img2-09.png';
+  linkedinIcon.src = '../static/images/icons/img1-11.png';
+  githubIcon.src = '../static/images/icons/img2-02.png';
   email.style.color = "#a34039";
-  scrollDownArrow.src = './images/icons/img1-22.png';
+  scrollDownArrow.src = '../static/images/icons/img1-22.png';
 
   localStorage.setItem('lightMode', 'enabled');
 }
@@ -75,12 +75,12 @@ const disableLightMode = () => {
   themeColorMeta.setAttribute("content", themeColor)
   // console.log("disableLightMode", themeColorMeta)
 
-  logo.src = 'images/icons/img1-23.png';
-  toggleBtnImg.src = './images/icons/img1-01.png';
-  linkedinIcon.src = './images/icons/img1-03.png';
-  githubIcon.src = './images/icons/img1-04.png';
+  logo.src = '../static/images/icons/img1-23.png';
+  toggleBtnImg.src = '../static/images/icons/img1-01.png';
+  linkedinIcon.src = '../static/images/icons/img1-03.png';
+  githubIcon.src = '../static/images/icons/img1-04.png';
   email.style.color = "#d3b5b9";
-  scrollDownArrow.src = './images/icons/img1-07.png';
+  scrollDownArrow.src = '../static/images/icons/img1-07.png';
 
   localStorage.setItem('lightMode', null);
 }
