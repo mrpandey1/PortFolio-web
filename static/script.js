@@ -56,7 +56,7 @@ const enableLightMode = () => {
   themeColorMeta.setAttribute("content", themeColor)
   // console.log("enableLightMode", themeColorMeta)
 
-  logo.src = '../static/images/icons/img1-24.png';
+  logo.src = '../static/images/melight.png';
   toggleBtnImg.src = '../static/images/icons/img2-09.png';
   linkedinIcon.src = '../static/images/icons/img1-11.png';
   githubIcon.src = '../static/images/icons/img2-02.png';
@@ -75,7 +75,7 @@ const disableLightMode = () => {
   themeColorMeta.setAttribute("content", themeColor)
   // console.log("disableLightMode", themeColorMeta)
 
-  logo.src = '../static/images/icons/img1-23.png';
+  logo.src = '../static/images/medark.png';
   toggleBtnImg.src = '../static/images/icons/img1-01.png';
   linkedinIcon.src = '../static/images/icons/img1-03.png';
   githubIcon.src = '../static/images/icons/img1-04.png';

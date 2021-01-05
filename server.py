@@ -19,8 +19,11 @@ def write_to_database(data):
 @app.route('/submit_form',methods=['POST','GET'])
 def submit_form():
     if request.method=='POST':
-        data=request.form.to_dict()
-        write_to_database(data)
-        return render_template('thankyou.html')
+        try:
+            data=request.form.to_dict()
+            write_to_database(data)
+            return render_template('thankyou.html')
+        except:
+            return 'did not save to database'
     else:
         return 'something went wrong please try again'

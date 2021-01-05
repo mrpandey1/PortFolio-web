@@ -1898,3 +1898,19 @@
     }
   }
   
+  .column {
+    float: left;
+    width: 18%;
+    padding: 50px;
+  }
+
+  .column .column-img{
+    width: 100px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
